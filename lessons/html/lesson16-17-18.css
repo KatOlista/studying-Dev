@@ -1,0 +1,18 @@
+tfoot{
+	background-color: pink;
+	color: blue;
+}
+
+table{
+	border-spacing: 0.1px;
+}
+th, td{
+	border:2px solid gray;
+	border-color: greenyellow;
+}
+thead{
+	background-color: yellow;
+}
+tbody{
+	background-color: blanchedalmond;
+}

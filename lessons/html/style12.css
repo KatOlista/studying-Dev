@@ -1,0 +1,14 @@
+ul.counter {
+	font-size: 30px; /* грубость текста */
+	list-style: none; /* уберает стандартные маркеры */
+	color: chocolate;
+}
+
+ul.counter li:before {
+	content: ""; /* для отображения контента в данном солучаи - background: url(./imeg/jVfPr0P4gm0.jpg); */
+	display: inline-block; /* тоже необходим для отображения нашего изображения */
+	width: 30px;
+	height: 30px;
+	background: url("https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/271/smiling-face-with-smiling-eyes_1f60a.png"); /* путь к нашему изображению */
+	background-size: contain; /* для отображения изображения в указанных нами размерами width: 150px; height: 150px; */
+}

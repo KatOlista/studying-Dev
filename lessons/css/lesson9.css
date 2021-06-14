@@ -1,0 +1,35 @@
+html {
+height: 10000px;
+}
+div {
+	border: 1px dashed black;
+	width: 300px;
+	margin: 10px;
+	padding: 5px 10px;
+	background-color: #fff;
+}
+.static {
+position: static;
+
+}
+.absolute {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 50px;
+}
+.relative {
+	position: relative;
+}
+.relative.main > div {
+	width: 30%;
+	display: inline-block;
+}
+/*.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;   
+}*/
+.unset {
+	position: unset;
+}

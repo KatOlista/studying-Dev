@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>home</title>
+		<meta charset="utf=8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+		<link rel="stylesheet" type="text/css" href="lesson27.css" />
+		<script
+			src="https://kit.fontawesome.com/d72087c4fc.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<form
+			action="./test.php"
+			method="post"
+			enctype="application/x-www-form-urlencoded"
+			target="_blank"
+		>
+			<!-- dannye kodirujutsa konverterom typa asc2hex // dla wysylki loginow i registracyj - o4en bezopasnyj-->
+		</form>
+		<form
+			action="./test.php"
+			method="post"
+			enctype="text/plain"
+			target="_blank"
+		>
+			<!-- dannye kodirujutsa bez konvercyy // nie sowsem bezopasno -->
+		</form>
+		<form
+			action="./test.php"
+			method="post"
+			enctype="multipart/form-data"
+			target="_blank"
+		>
+			<!-- wysylajem formy s fajlami -->
+			<input type="file" name="my_file" />
+			<!--vysylka 1 fajla -->
+			<input type="file" name="my_file[]" multiple />
+			<!--vysylka neskolkich fajlov -->
+
+			<hr />
+			<input type="text" name="" />
+			<hr />
+			<input type="password" name="" />
+			<hr />
+			<input type="radio" name="test" />
+			<input type="radio" name="test" />
+			<input type="radio" name="test2" />
+			<input type="radio" name="test2" />
+			<hr />
+			<input type="submit" name="submit" />
+			<hr />
+			<input type="checkbox" name="" />
+			<hr />
+			<textarea>textarea</textarea>
+			<hr />
+			<select>
+				select
+			</select>
+			<hr />
+			<hr />
+			<input type="reset" name="" />
+			<hr />
+			<input type="button" name="" />button
+			<hr />
+			<input type="checkbox" name="" required> <!--required - bez etoj galo4ki nie mozem wyslac -->
+	<hr>
+	<input type="email" name="" required> <!--required - bez sobludenia etogo trebovania nie mozem wyslac -->
+	<hr />
+	<input type="date" name="">
+	<input type="week" name="">
+	<input type="time" name="">
+	<hr>
+	<input type="hidden" name=""><!-- spriatannyj, wysylaetsa avtomati4eski s zapolnennymi dannymi -->
+	<hr> 
+	<input type="tel" name="">
+	<input type="search" name="">
+	<input type="url" name="">
+	<input type="month" name="">
+	<input type="number" name="">
+	<input type="datetime-local" name="">
+	<hr>
+
+			<label
+				>test1
+				<input type="radio" name="test" />
+			</label>
+			<label
+				>test2
+				<input type="radio" name="test" />
+			</label>
+			<label
+				>test3
+				<input type="radio" name="test" />
+			</label>
+			<label
+				>test4
+				<input type="radio" name="test" />
+				<input type="checkbox" name="" />regulamin
+			</label>
+		</form>
+	</body>
+</html>

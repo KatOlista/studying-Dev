@@ -1,0 +1,56 @@
+.test {
+	background-color: pink;
+	width: 200px;
+	height: 100px;
+	/*transition-duration: 1s;
+	transition-property: width;
+	transition-timing-function: ease;*/
+	margin-top: 20px;
+	margin-left: 10px;
+
+transition:  1s all ease;
+}
+.scale:hover {
+	transform: scale(1.2);
+}
+.background:hover {
+background-color: red;
+}
+.width:hover {
+width: 300px;
+}
+.border:hover{
+border-radius: 100%;
+}
+.all:hover {
+	transition-delay: 3s;
+	border-radius: 100%;
+width: 300px;
+background-color: red;
+transform: scale(1.1);
+}
+.my-play {
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 50px;
+	height: 50px;
+	border: 50px solid red;
+	box-sizing: border-box;
+	border-right-color: transparent;
+	border-radius: 100%;
+	
+}
+.oko {
+	border: 5px solid green;
+	box-sizing: border-box;
+	border-radius: 100%;
+	position: absolute;
+	margin-left: -15px;
+	margin-top: -30px;
+}
+.my-play:hover {
+	margin-left: 400px;
+	transform: rotate(360deg);
+	transition: 10s ease;
+	
+}

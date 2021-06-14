@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
+
+body {
+	background-color: black;
+}
+
+.hello__wrapper {
+	height: 120px;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 40px;
+	color: #5CCDC9;
+}
+.hello {
+	margin-top: 10px;
+	font-family: "Indie Flower", cursive;
+	color: #F63E62;
+	font-weight: bolder;
+	color: #F63E62;
+}
+.awsome__wrapper {
+	width: 50px;
+	height: 60px;
+	margin: 0 auto;
+}
+.awsome {
+	margin-bottom: 10px;
+	animation: mymove 2s ease 1s infinite;
+	animation-fill-mode: backwards;
+}
+@keyframes mymove {
+	0% {
+	}
+	50% {
+		transform: scale(1.3);
+		filter: drop-shadow(10px 10px 2px gray);
+	}
+	100% {
+	}
+}
+.form__wrapper {
+	margin-top: 20px;
+	height: 600px;
+	font-family: "New Tegomin", serif;
+	color: #5CCDC9;
+}
+.form-form__wrapper {
+	margin: 0 auto;
+	width: 400px;
+	height: 500px;
+	border: 4px solid #F63E62;
+	border-radius: 40px;
+}
+.form-form__wrapper:hover {
+	transform: scale(1.1);
+	box-shadow: 10px 10px 10px gray;
+	background-color: black;
+}
+.form__wrapper-hi {
+	font-size: 15px;
+	text-align: center;
+}
+.form__wrapper-info {
+	font-size: 20px;
+	text-align: center;
+}
+.form__wrapper-form {
+	margin: 0 auto;
+	width: 300px;
+	height: 300px;
+	color: #5CCDC9;
+}
+.inputy {
+	text-align: right;
+}
+.inputy2 {
+	text-align: center;
+}
+input {
+	background-color: transparent;
+	font-family: "New Tegomin", serif;
+	border: 2px double #F63E62;
+	font-size: 15px;
+	color: #5CCDC9;
+}
+textarea {
+	background-color: transparent;
+	border: 2px double #F63E62;
+	color: #5CCDC9;
+}
+hr {
+	border-color: #F63E62;
+}
+.button {
+	margin-left: 40px;
+	cursor: pointer;
+}
+input[type="reset"]:hover {
+	transform: scale(1.1);
+	background-color: black;
+	border-color: #F63E62;
+	font-size: 15px;
+	color: #FF4040;
+}
+input[type="reset"],
+input[type="submit"] {
+	color: #5CCDC9;
+	cursor: pointer;
+}
+input[type="submit"]:hover {
+	transform: scale(1.1);
+	background-color: black;
+	border-color: #F63E62;
+	font-size: 15px;
+	color: #FF4040;
+}
+input[type="checkbox"] {
+	visibility: hidden;
+}
+
+input[type="checkbox"]:checked {
+}
+.checkbox {
+	width: 20px;
+	height: 20px;
+	border: 2px solid #F63E62;
+	background-color: black;
+	position: relative;
+	margin-top: 5px;
+	margin-left: 200px;
+	color: #5CCDC9;
+}
+.checkbox label {
+	display: block;
+	width: 16px;
+	height: 16px;
+	transition: all 0.5s ease;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	background: transparent;
+	color: #5CCDC9;
+}
+.checkbox input[type="checkbox"]:checked + label {
+	background: #5CCDC9;
+}
+
+.check > label {
+	display: block;
+	width: 55px;
+	height: 20px;
+	position: absolute;
+	margin-top: -25px;
+	margin-left: 230px;
+}

@@ -1,0 +1,41 @@
+body {
+	background-color: pink;
+}
+.main--wrapper {
+	background-color: white;
+	min-height: 1000px;
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+.main-nav__wrapper {
+	background-color: yellow;
+	flex-basis: 25%;
+}
+.main-header__wrapper {
+	background-color: aquamarine;
+	flex-basis: 75%;
+	display: flex;
+	height: 15%;
+}
+.main-header__header--title {
+	background-color: yellowgreen;
+	flex-basis: 70%;
+}
+.main-header__header--info {
+	background-color: aqua;
+	flex-basis: 30%;
+}
+.main-content__wrapper {
+	background-color: cornflowerblue;
+	flex-basis: 85%;
+}
+.main-article__wrapper h2:first-letter {
+font-size: 60px;
+}
+.main-article__wrapper p:first-letter {
+font-size: 40px;
+}
+.main-article__wrapper {
+	padding: 20px;
+}

@@ -1,0 +1,15 @@
+.test {
+    font-size: 30px;
+    text-transform: capitalize;
+    /*text-shadow: 2px 2px 4px blue, 2px 2px 2px #ff0000;
+    text-decoration: overline;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 25px;*/
+    width: 100px;
+    text-overflow: ellipsis;
+    word-break: keep-all;
+    
+    overflow: hidden;
+    white-space: nowrap;
+    }

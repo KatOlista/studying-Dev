@@ -1,0 +1,11 @@
+p {
+	font-style: italic;
+	font-variant: inherit;
+	font-weight: bolder;
+	font-size: 25px;
+	font-family: monospace;
+	line-height: 25px; 
+	color: rgba(255,0,0, 0.5);
+	color: rgb(255,0,0);
+	color: ;
+}

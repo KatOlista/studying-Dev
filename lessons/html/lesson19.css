@@ -1,0 +1,37 @@
+table{
+	display: block;
+	border-spacing: 0.1px;
+	position: relative;
+	max-height: 40px;
+	transition: 1s all;
+	overflow: hidden;
+}
+tr:nth-child(2n){
+background-color: yellow;
+}
+tr:nth-child(2n-1){
+	background-color: pink;
+}
+td{
+	
+	border:2px solid gray;
+	border-color: greenyellow;
+}
+tr, td, th {
+	padding: 2px 5px 5px;
+}
+.slajd {
+	width: 200px;
+	cursor: pointer;
+	transition: 0.5s all;
+}
+.slajd:hover {
+	transform: scale(1.1);
+	color: blue;
+}
+table.animate{
+	max-height: 1000px;
+}
+.color{
+	color: red;
+}

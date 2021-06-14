@@ -1,0 +1,45 @@
+html {background-color: #876543;}
+.parent {
+	width: 500px;
+}
+
+
+.parent span.child:last-of-type:first-letter {
+	font-size: 50px;
+}
+.child {display: block;}
+.parent p.child span {
+	background-color: white;
+}
+.parent p.child span:first-child {
+font-weight: 900;
+}
+
+/*sposob wybrac 2 element*/
+/*.parent p.child span:nth-child(2){
+font-weight: 900;
+color: red;	
+}
+*/
+.parent p.child span:hover:last-child {
+text-decoration: underline;
+color: blue;
+}
+
+/*3 sposoba!*/
+/*.parent p.child span:not(:first-of-type):not(:last-of-type){
+font-weight: 900;
+color: red;
+}*/
+/*to ze samoje*/
+/*.parent p.child span:not(:nth-child(1)):not(:nth-last-child(1)){
+font-weight: 900;
+color: red;	
+background-color: yellow;
+}*/
+/*to ze samoje*/
+.parent p.child span:not(:first-child):not(:last-child){
+font-weight: 900;
+color: red;	
+background-color: yellow;
+}

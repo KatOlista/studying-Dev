@@ -1,0 +1,33 @@
+div {
+	min-height: 50px;
+	border: 2px groove cornflowerblue;
+	margin: 5px;
+}
+.main-content__wrapper {
+	background-color: pink;
+	padding: 20px 10px;
+}
+.main-content__wrapper * {
+	background-color: lightskyblue;
+}
+.main-content__wrapper > div {
+background-color: blueviolet;
+}
+/*.main-content__wrapper > div > div {
+border-top: 5px dashed black;
+}*/
+.main-content__article > div {
+	border-top: 5px dashed black;
+}
+/*.main-content__wrapper > div.main-content__article > div {
+background-color: aqua;
+}*/
+.main-content__wrapper > div.main-content__article.content__article-about {
+color: red;
+}
+#header {
+	background-color: yellow;
+}
+input[name='el'] {
+	background-color: blue;
+}

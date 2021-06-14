@@ -1,0 +1,36 @@
+body {
+	background-color: #778899;
+}
+
+.flex-content__wrapper {
+	background-color: #DDA0DD;
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.flex-content__child {
+	background-color: #8A2BE2;
+	color: white;
+	width: 30%;
+	border: 1px solid white;
+	box-sizing: border-box;
+}
+.flex-col-3 {
+	width: calc(calc(100%/12)*3);
+	order: 2;
+}
+.flex-col-3:first-of-type {
+	height: 110px;
+	order: 3;
+}
+.flex-col-9 {
+	width: calc(calc(100%/12)*9);
+}
+.flex-col-6 {
+	width: calc(calc(100%/12)*6);
+}
+.flex-col-12 {
+	width: calc(calc(100%/12)*12);
+}

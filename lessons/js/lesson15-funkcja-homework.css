@@ -1,0 +1,51 @@
+.main__wrapper {
+	position: relative;
+}
+
+.circle {
+	width: 15px;
+	height: 15px;
+	background-color: red;
+	border-radius: 100%;
+	position: absolute;
+	margin-top: -415px;
+    margin-left: 295px
+}
+
+.life:hover {
+	animation: mymove 100s linear infinite;
+	animation-play-state: running;
+	
+}
+@keyframes mymove {
+	0% {margin-top: -415px; margin-left: 295px;}
+	10% {margin-top: -352px; margin-left: 530px;}
+	15% {margin-top: -332px; margin-left: 465px;}
+	25% {margin-top: -272px; margin-left: 675px;}
+	30% {margin-top: -257px; margin-left: 625px;}
+	40% {margin-top: -162px; margin-left: 980px;}
+	50% {margin-top: -287px; margin-left: 770px;}
+	55% {margin-top: -300px; margin-left: 815px;}
+	65% {margin-top: -373px; margin-left: 658px;}
+	70% {margin-top: -388px; margin-left: 700px;}
+	80% {margin-top: -473px; margin-left: 562px;}
+	100% {margin-top: -415px; margin-left: 295px;}
+}
+.deth {
+	animation: mybackmove 100s linear infinite;
+	animation-play-state: running;
+}
+@keyframes mybackmove {
+	0% {margin-top: -415px; margin-left: 295px;}
+	10% {margin-top: -473px; margin-left: 562px;}
+	20% {margin-top: -388px; margin-left: 700px;}
+	25% {margin-top: -373px; margin-left: 658px;}
+	35% { margin-top: -300px; margin-left: 815px;}
+	50% {margin-top: -287px; margin-left: 770px;}
+	65% {margin-top: -162px; margin-left: 980px;}
+	70% {margin-top: -257px; margin-left: 625px;}
+	75% {margin-top: -272px; margin-left: 675px;}
+	85% {margin-top: -332px; margin-left: 465px;}
+	90% {margin-top: -352px; margin-left: 530px;}
+	100% {margin-top: -415px; margin-left: 295px;}
+}

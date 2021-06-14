@@ -1,0 +1,25 @@
+html {background-color: #876543;}
+.parent {
+	width: 500px;
+}
+.parent :first-child {
+	background-color: red;
+}
+.parent p:first-of-type {
+	background-color: blue;
+}
+.child:first-letter {
+	font-size: 40px;
+}
+.child:first-line {
+	font-size: 30px;
+	color: white;
+}
+.parent :last-child {
+	background-color: yellowgreen;
+}
+.parent span.child:last-of-type {
+	background-color: purple;
+}
+
+/*first-letter, first-line - nie dziala dla elementu inline*/

@@ -1,0 +1,32 @@
+stili ramok:
+dotted
+dashed
+solid
+double
+groove
+ridge
+inset
+outset
+
+
+Generalnie jest w CSS fajna opcja taka, że po najechaniu na dany element możesz wskazać na styl którego elementu oddziałujesz, używasz tego znaku "~", np.
+.col-2:hover ~ .hidden {
+      display:visible;
+}
+
+https://autoprefixer.github.io/ru/
+
+<i class="fas fa-code"></i>
+<i class="far fa-home-alt"></i>
+<i class="fab fa-bitbucket"></i>
+<i class="fas fa-info"></i>  <i class="fas fa-info-circle"></i> 
+<i class="far fa-envelope-open"></i>  <i class="far fa-envelope"></i>
+
+color: #5CCDC9;
+border: 2px double #F63E62;
+
+#0A67A3	#24587A	#03426A	#3E97D1	#65A6D1
+#0C5AA6	#26527C	#04396C	#408AD2	#679ED2
+#1142AA	#2A4580	#06276F	#4573D5	#6C8DD5
+#00AE68	#21825B	#007143	#36D695	#60D6A7
+

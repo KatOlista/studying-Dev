@@ -1,0 +1,39 @@
+div {padding: 10px;}
+.main-content__wrapper {
+	background-color: pink;
+}
+.main-content__title {
+	color: white;
+}
+.main-content__description {
+	color: red;
+}
+
+.set-border {
+	border: 1px double yellowgreen;
+}
+.main-section__wrapper {
+	background-color: yellowgreen;
+}
+
+
+
+ [class*="main-section__"].set-border { /*samoe prostoje i udobnoe reszenie*/
+ 	border-color: black;
+ }
+/* to ze samoje drugoj sposob*/
+/* .main-section__wrapper .set-border {
+ 	border-color:black;
+ }
+ .main-section__wrapper > .set-border,
+ .main-section__wrapper.set-border {
+ 	border-color: blue;
+ }*/ /*etot budet imet prioritet,t.k. > zna4it dla perwogo pokolenia detej*/
+
+
+.main-section__wrapper .set-border > .set-border {
+	border-color: yellow;
+}
+p.set-border {
+	border-radius: 10px;
+}

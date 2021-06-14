@@ -1,0 +1,45 @@
+/*img {
+	max-height: 250px;
+	max-width: 250px;
+}*/
+.wrapper {
+	width: 400px;
+	max-width: 100%;
+	height: auto;
+	/*background-color: 0;*/
+	/*padding: 20px; *//*промежуток между элементом и рамкой*/
+	box-shadow: 0 0 5px 5px cornflowerblue;
+	transition: 0.5s all;
+}
+.wrapper img {
+	width: 400px;
+	/*border-radius: 0%; *//*радиус закругления углов*/
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	/*opacity: 0.2;*/ /*прозрачность картинки - 80%*/
+	cursor: pointer; /*курсор меняет форму при наведении на элемент*/
+	/*transition: 0.5s all;
+	filter: grayscale(0);*/
+	/*transform: scale(); переворачивает. можно анимировать*/
+	
+}
+/*img:hover {
+	/*opacity: 1;*/ /*прозрачность картинки - нет*/
+	
+/*filter: grayscale(0); при 1 серый, при 0 - цветной
+/*transform: scale(-1); }*/
+
+.polaroid {
+	display: block;
+	background-color: white;
+	margin: 0 auto;
+	padding: 10px 20px;
+	width: 200px;
+	text-align: center;
+}
+.wrapper:hover {
+	transform: scale(1.2);
+	box-shadow: 0 0 10px 10px blue;
+}
+

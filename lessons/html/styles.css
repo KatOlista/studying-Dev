@@ -1,0 +1,30 @@
+ol.counter 
+{ 
+	counter-reset: item; 
+	list-style-type: none; 
+}
+
+	ol.counter 
+	li:before {
+		font-weight: bold;
+		content: counters(item, ".")". ";
+		counter-increment: item;
+	}
+
+
+
+/*ol > li > ol {
+    list-style-type: none;
+}
+ol > li > ol 
+li {
+    counter-increment: list;
+}
+ol > li > ol 
+li:before {
+    display:inline-block; 
+    width: 0.5em; 
+    position:relative; 
+    left:-0.75em; 
+    content: counter(list, lower-alpha) ") ";
+}*/

@@ -1,0 +1,47 @@
+body {
+	background-color: aqua;
+	box-sizing: border-box;
+	position: relative;
+}
+
+div {
+	background-color: pink;
+	min-height: 20px;
+	margin: 20px auto;
+	box-sizing: border-box;
+    position: relative;
+    display: block;
+}
+.test1 {
+	max-width: 100%;
+}
+.test2 {
+
+}
+.test3 {
+max-width: 100%;
+}
+.test3-1 {
+	width: 100%;
+	margin: 0 auto;
+background-color: yellow;
+}
+
+.test3-1-1,
+.test3-1-2 {
+	display: inline-block;
+}
+
+.test3-1-1 {
+	width: 50vh;
+	background-color: cornflowerblue;
+	width: 60%;
+}
+.test3-1-2 {
+	background-color: aquamarine;
+	width: 40%;
+}
+.test3-2 {
+
+	background-color: gray;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Get Current Position</title>
+
+<script>
+    function showPosition() {
+        if(navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function(position) {
+                var positionInfo = "Your current position is (" + "Latitude: " + position.coords.latitude + ", " + "Longitude: " + position.coords.longitude + ")";
+                document.getElementById("result").innerHTML = positionInfo;
+            });
+        } else {
+            alert("Sorry, your browser does not support HTML5 geolocation.");
+        }
+    }
+</script>
+</head>
+<body>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19734.24750170416!2d15.697067799999997!3d51.81016325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2spl!4v1615745261998!5m2!1sru!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <div id="result">
+        <!--Position information will be inserted here-->
+    </div>
+    <button type="button" onclick="showPosition();">Show Position</button>
+</body>
+</html>

@@ -1,0 +1,40 @@
+div {padding: 10px 20px;}
+.children-wrapper {
+	background-color: #767211;
+	width: 640px;
+	height: 100px;
+}
+.children-wrapper * {
+	width: calc(100% / 7 - 10px);
+	background-color: red;
+	height: 20px;
+	display: inline-block;
+	border-right: 2px solid black;
+	margin: 5px;
+	box-sizing: border-box;
+}
+.children-wrapper-1 {
+	background-color: #767211;
+	width: 100%;
+	max-width: 1000px;
+	min-height: 100px;
+	margin: 0 auto;
+}
+.children-wrapper-1__step1 {
+	position: relative;
+	background-color: red;
+}
+.children-wrapper-1__step2 {
+	background-color: black;
+}
+.children-wrapper-1__step3 {
+	background-color: blue;
+	position: relative;
+}
+.children-1 {
+	position: absolute;
+	background-color: purple;
+	width: calc(100% - 40px);
+	bottom: 0;
+	left: 0;
+}
